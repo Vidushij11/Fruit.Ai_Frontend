@@ -18,9 +18,11 @@ export default function Home() {
             </p>
           </div>
         </Link>
-        <div className="bg-gradient-to-t from-[#FFAAF6] to-[#FFE1FE]  rounded-xl shadow-md md:h-[200px] md:w-[200px] h-32 w-32 md:text-5xl text-3xl flex items-center justify-center text-[#C84AD3] hover:shadow-xl transition-all">
-          <p className="font-semibold ">About</p>
-        </div>
+        <Link to={"/about"}>
+          <div className="bg-gradient-to-t from-[#FFAAF6] to-[#FFE1FE]  rounded-xl shadow-md md:h-[200px] md:w-[200px] h-32 w-32 md:text-5xl text-3xl flex items-center justify-center text-[#C84AD3] hover:shadow-xl transition-all">
+            <p className="font-semibold ">About</p>
+          </div>
+        </Link>
         <div className="bg-gradient-to-t from-[#AAFFB2] to-[#E1FFE4]  rounded-xl shadow-md md:h-[200px] md:w-[200px] h-32 w-32 text-7xl flex items-center justify-center text-[#C84AD3] hover:shadow-xl transition-all blur-sm">
           <p className="font-semibold "></p>
         </div>

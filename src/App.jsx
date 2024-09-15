@@ -5,6 +5,7 @@ import Translate from "./pages/Translate";
 import Chat from "./pages/Chat";
 import Faq from "./pages/Faq";
 import Login from "./pages/Login";
+import About from "./pages/About";
 
 function App({ userName }) {
   return (
@@ -15,6 +16,7 @@ function App({ userName }) {
         <Route path="/chat" element={<Chat />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/" element={<Login />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );
