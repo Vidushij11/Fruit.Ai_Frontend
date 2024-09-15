@@ -1,4 +1,5 @@
 import React from "react";
+import translate from "../images/g_translate.png";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -10,10 +11,10 @@ export default function Home() {
             <p className="font-semibold ">Chat</p>
           </div>
         </Link>
-        <Link to={'/translate'}>
+        <Link to={"/translate"}>
           <div className="bg-gradient-to-t from-[#AAFAFF] to-[#E1FBFF]  rounded-xl shadow-md md:h-[200px] md:w-[200px] h-32 w-32 text-7xl flex items-center justify-center text-[#C84AD3] hover:shadow-xl transition-all">
             <p className="font-semibold ">
-              <img src="/src/images/g_translate.png" />
+              <img src={translate} />
             </p>
           </div>
         </Link>
@@ -23,7 +24,7 @@ export default function Home() {
         <div className="bg-gradient-to-t from-[#AAFFB2] to-[#E1FFE4]  rounded-xl shadow-md md:h-[200px] md:w-[200px] h-32 w-32 text-7xl flex items-center justify-center text-[#C84AD3] hover:shadow-xl transition-all blur-sm">
           <p className="font-semibold "></p>
         </div>
-        <Link to={'/faq'}>
+        <Link to={"/faq"}>
           <div className="bg-gradient-to-t from-[#E3BFFF] to-[#D299FF]  rounded-xl shadow-md md:h-[200px] md:w-[200px] h-32 w-32 md:text-7xl text-4xl flex items-center justify-center text-[#3B5998] hover:shadow-xl transition-all">
             <p className="font-semibold ">FAQs</p>
           </div>

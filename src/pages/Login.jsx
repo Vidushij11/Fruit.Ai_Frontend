@@ -28,7 +28,7 @@ export default function Login() {
           // onChange={(e) => setPassword(e.target.value)}
           className="p-2 w-[300px] mb-10 border rounded"
         />
-        <Link to="/">
+        <Link to="/home">
           {" "}
           <button
             // onClick={handleLogin}

@@ -10,11 +10,11 @@ function App({ userName }) {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/translate" element={<Translate />} />
         <Route path="/chat" element={<Chat />} />
         <Route path="/faq" element={<Faq />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
       </Routes>
     </Router>
   );
